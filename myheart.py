@@ -1,7 +1,9 @@
 # Awesome Project
+import turtle
 
 from turtle import *
 import time
+
 color('red')
 begin_fill()
 pensize(10)
@@ -23,4 +25,9 @@ forward(80)
 circle(40, 190)
 left(349)
 forward(68)
-time.sleep(8)
+time.sleep(5)
+
+ts = turtle.getscreen()
+ts.getcanvas().postscript(file="heart.eps")
+# https://epsviewer.org/onlineviewer.aspx
+# convert eps file to png or jpg to view the image

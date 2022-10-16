@@ -1,48 +1,41 @@
 # #Method 1
 
 
-
-
-
-
 # import numpy as npy
 # from PIL import Image
 # from wordcloud import WordCloud, STOPWORDS
 #
-# dataset = open("ManiTejas.txt", "r").read()
+# dataset = open("lilFamily.txt", "r").read()
 #
 #
 # def create_word_cloud(string):
 #     maskArray = npy.array(Image.open('wallpaper.JPG'))
 #     cloud = WordCloud(background_color="black", max_words=22200, mask=maskArray, stopwords=set(STOPWORDS))
 #     cloud.generate(string)
-#     cloud.to_file("wordCloud.png")
+#     cloud.to_file("FamilyCloud.png")
 #
 #
-# # dataset = dataset.lower()
+# dataset = dataset.lower()
 # create_word_cloud(dataset)
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
 
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 
 
 # # Method 2
-
-
-
-
-
-
+#
+#
 # import matplotlib
+#
 # matplotlib.use('TkAgg')
 # import matplotlib.pyplot as plt
 # from wordcloud import WordCloud, STOPWORDS
@@ -56,7 +49,8 @@
 #     return "hsl({}, {}%, {}%)".format(h, s, l)
 #
 #
-# file_content = open("ManiTejas.txt").read()
+# # file_content = open("ManiTejas.txt").read()
+# file_content = open("lilFamily.txt").read()
 #
 # wordcloud = WordCloud(font_path=r'C:\Windows\Fonts\Verdana.ttf',
 #                       stopwords=STOPWORDS,
@@ -83,13 +77,7 @@
 #
 
 
-
-
 # # Method 3
-
-
-
-
 
 
 # """

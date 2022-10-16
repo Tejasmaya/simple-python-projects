@@ -37,16 +37,4 @@
 #     img.save("image.png")
 
 
-# # convert extension of image
-#
-# import aspose.words as aw
-#
-# doc = aw.Document()
-# builder = aw.DocumentBuilder(doc)
-#
-# builder.insert_image("wallpaper.JPG")
-#
-# doc.save("Output.pdf")
-#
-# # { docx , pdf , md , html , txt , doc , dot , docm , dotx , dotm , rtf , epub ps , pcl , mhtml , xhtml , odt ott ,\
-# # xps , png}
+
